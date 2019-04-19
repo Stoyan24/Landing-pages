@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900');
+
+body {
+    font-family: 'Lato', sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+.first {
+    background: url("../img/background-header.jpg");
+    background-size: cover;
+    height: 500px;
+}
+
+#logo {
+    width: 10%;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.inside-first {
+    text-align: center;
+}
+
+.gg {
+    font-family: Lato, sans-serif;
+    font-size: 20px;
+    font-weight: bolder;
+    color: #5A5A5A;
+    margin: 5px;
+}
+
+#begging {
+    color: darkgrey;
+    font-size: 30px;
+    font-weight: lighter;
+    margin-bottom: 0px;
+}
+
+.first h1 {
+    font-size: 45px;
+    font-weight: bold;
+    margin-top: 0px;
+}
+
+.fot-buttons {
+    display: flex;
+    flex-direction: row;
+    margin-left: 41%;
+    margin-top: 12%;
+}
+
+#left {
+    background-color: darkblue;
+    color: white;
+    border-radius: 30px;
+    padding: 7px;
+    margin-right: 10px;
+}
+
+#right {
+    background-color: red;
+    color: white;
+    border-radius: 30px;
+    padding: 7px;
+    margin-left: 10px;
+}
+
+section article {
+    display: inline-block;
+    width: 33%;
+}
+
+i {
+    color: sandybrown;
+    font-size: 48px;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+.second p {
+    margin: 32px;
+    font-size: 12px;
+    text-align: center;
+}
+
+.third {
+    background: url("../img/moon.jpg");
+    background-size: cover;
+    height: 500px;
+    color: white;
+}
+
+#other {
+    background-color: #464646;
+    margin-left: 50px;
+    width: 400px;
+    height: 350px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: sandybrown;
+}
+
+.third div h1 {
+    text-align: center;
+    font-style: italic;
+}
+
+h5 {
+    text-align: center;
+    font-style: italic;
+}
+
+.third div p {
+    text-align: center;
+    font-style: italic;
+}
+
+.round1 {
+    position: relative;
+    left: 40px;
+    top: 35px;
+    text-align: center;
+    height: 100px;
+    width: 100px;
+    border-radius: 330px;
+    background-color: sandybrown;
+    color: black;
+}
+
+.round2 {
+    position: relative;
+    left: 253px;
+    top: -78px;
+    height: 100px;
+    width: 100px;
+    border-radius: 330px;
+    background-color: sandybrown;
+    color: black;
+}
+
+.round1 p {
+    padding-top: 38px;
+}
+
+.round2 p {
+    padding-left: 7px;
+    padding-top: 38px;
+}
+
+footer {
+    background-color: black;
+    height: 80px;
+    color: white;
+    margin-top: -20px;
+}
+
+footer p {
+    position: relative;
+    top: -25px;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+span {
+    color: sandybrown;
+}
+#favicons {
+   position: relative;
+    top: 30px;
+    text-align: right;
+}
+.fa-facebook {
+    color: blue;
+    font-size: 20px;
+    border: solid;
+    padding: 10px;
+    border-radius: 160px;
+    border-width: 1px;
+}
+.fa-twitter {
+    color: lightgreen;
+    font-size: 20px;
+    border: solid;
+    padding: 10px;
+    border-radius: 160px;
+    border-width: 1px;
+}
+.fa-instagram {
+    color: rebeccapurple;
+    font-size: 20px;
+    border: solid;
+    padding: 10px;
+    border-radius: 160px;
+    border-width: 1px;
+}
+.fa-pencil, .fa-camera-retro,.fa-usd {
+    font-size: 80px;
+    margin: 40px;
+    margin-left: 145px;
+    margin-bottom: 12px;
+    border: solid;
+    border-color: sandybrown;
+    border-radius: 200px;
+    border-width: 2px;
+    padding: 30px
+}
